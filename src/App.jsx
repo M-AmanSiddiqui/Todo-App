@@ -16,7 +16,7 @@ const fetchproducts = async ()=>{
   const products = await getAllproducts()
 setProducts([...products])
   console.log(products);}
-
+// abcd
   return (
     
    <div className='container mx-auto my-10'>
