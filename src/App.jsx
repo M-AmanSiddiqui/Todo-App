@@ -12,13 +12,14 @@ function App() {
   completed: false,
  }]);
   return (
-  <div className='w-3/4 mx-auto'>
-    <h1 className='font-bold text-3xl '>Todo App</h1>
-  <TodoInput value = {todo} onChange={(e)=> setTodo(e.target.value)}
-    onClick={()=> console.log("Clicked on add todo button")}/>
-<TodoList todos={todos} />
-  </div>
     
+//   <div className='w-3/4 mx-auto'>
+//     <h1 className='font-bold text-3xl '>Todo App</h1>
+//   <TodoInput value = {todo} onChange={(e)=> setTodo(e.target.value)}
+//     onClick={()=> console.log("Clicked on add todo button")}/>
+// <TodoList todos={todos} />
+//   </div>
+    <div>abx</div>
   )};
 
 export default App
