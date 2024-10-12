@@ -18,7 +18,7 @@ function App() {
   <TodoInput value = {todo} onChange={(e)=> setTodo(e.target.value)}
     onClick={()=> console.log("Clicked on add todo button")}/>
 <TodoList todos={todos} />
-<div><h2></h2></div>
+<div><h2>abc</h2></div>
  </div>
 
   )};
